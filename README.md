@@ -3,8 +3,10 @@ GettingAndCleaningDataProject
 
 The key file in this repository is run_analysis.R, which was authored by Ben Sanders on November 5th, 2014.
  
-This script acts on the Human Activity Recognition Using Smartphones Data Set
-information about the data set may be found here: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+This script acts on the Human Activity Recognition Using Smartphones Data Set. information about the data set may be found here: 
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
+
 the data set may be downloaded here: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
  
 This script creates two files containing activity data which has been prepared for analysis.
@@ -15,15 +17,15 @@ and subject, taken from the cleaned_data.text file, using the same units of meas
 In order for this script to function the source data must be downloaded and extracted to the working directory.
 Expected files include:
 UCI HAR Dataset\
-|__>features.txt
-|__>test\
-|   |__>subject_test.txt
-|   |__>x_test.txt
-|   |__>y_test.txt
-|__>train\
-    |__>subject_train.txt
-    |__>x_train.txt
-    |__>y_train.txt
+	features.txt
+	test\
+		subject_test.txt
+		x_test.txt
+		y_test.txt
+	train\
+		subject_train.txt
+		x_train.txt
+		y_train.txt
  
 There are no functions to call, just run the script in its entirety and the data will be merged and summarized.
  
