@@ -18,14 +18,23 @@ In order for this script to function the source data must be downloaded and extr
 Expected files include:
 
 UCI HAR Dataset\
+
 -features.txt
+
 -test\
+
 --subject_test.txt
+
 --x_test.txt
+
 --y_test.txt
+
 -train\
+
 --subject_train.txt
+
 --x_train.txt
+
 --y_train.txt
  
 There are no functions to call, just run the script in its entirety and the data will be merged and summarized.
