@@ -16,25 +16,34 @@ and subject, taken from the cleaned_data.text file, using the same units of meas
  
 In order for this script to function the source data must be downloaded and extracted to the working directory.
 Expected files include:
+
 UCI HAR Dataset\
-	features.txt
-	test\
-		subject_test.txt
-		x_test.txt
-		y_test.txt
-	train\
-		subject_train.txt
-		x_train.txt
-		y_train.txt
+-features.txt
+-test\
+--subject_test.txt
+--x_test.txt
+--y_test.txt
+-train\
+--subject_train.txt
+--x_train.txt
+--y_train.txt
  
 There are no functions to call, just run the script in its entirety and the data will be merged and summarized.
  
 This script operates through the following steps:
+
 1) Load the files into memory
+
 2) merge the data sets using rbind and cbind.
+
 3) Label the dataset with descriptive names.
+
 4) Remove undesired columns
+
 5) Add descriptive activity names.
+
 6) Create a second dataset with averages information.
+
 7) Store the data in files.
+
 8) Test the data for consistency with my original data.
